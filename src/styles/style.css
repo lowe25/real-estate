@@ -1,8 +1,19 @@
 @import "tailwindcss";
+@import "@splidejs/react-splide/css";
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@400;500;600;700&display=swap");
+
+@theme {
+  --font-Montserrat: "Montserrat", sans-serif;
+}
+
+@theme {
+  --font-Poppins: "Poppins", sans-serif;
+}
 
 html {
   font-size: 10px;
-  font-family: "Noto Sans", sans-serif !important;
+  font-family: "Poppins", sans-serif !important;
   font-weight: 400;
   scroll-behavior: smooth;
   overflow-x: hidden;
