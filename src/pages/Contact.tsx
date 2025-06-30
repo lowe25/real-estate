@@ -54,7 +54,7 @@ const Contact = () => {
                       <option value="others">Others</option>
                     </select>
                   </div>
-                  <div className="mb-[20px] flex gap-[15px]">
+                  <div className="mb-[20px] flex gap-[15px] max-md:flex-col">
                     <div className="flex flex-col w-full">
                       <span className="text-[1.2rem] font-bold">
                         First Name:
@@ -88,7 +88,7 @@ const Contact = () => {
                       )}
                     </div>
                   </div>
-                  <div className="mb-[20px] flex gap-[15px]">
+                  <div className="mb-[20px] flex gap-[15px] max-md:flex-col">
                     <div className="flex flex-col w-full">
                       <span className="text-[1.2rem] font-bold">Email:</span>
                       <input
